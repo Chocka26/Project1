@@ -1,0 +1,164 @@
+@font-face {
+    font-family: top;
+    src: url(./fonts/Tangerine-Regular.ttf);
+    font-family: coffee;
+    src: url(./fonts/JosefinSans-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    font-family: Tangerine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 500;
+}
+.contain{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 25px;
+    margin-left: 25px;
+
+}
+.Every{
+    margin-left: 156px;
+    padding-top: 5px;
+    font-family: Cinzel;
+    font-weight: 600;
+}
+.SAND{
+    padding-left: 90px;
+    
+}
+.PAST{
+    padding-left: 102px;
+}
+.THIN{
+    padding-left: 85px;
+}
+.WAFFLE{
+    padding-left: 60px;
+}
+.MOCK{
+    padding-left: 95px;
+}
+.MILK{
+    padding-left: 75px;
+}
+.portrait{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 85px;
+    
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.best{
+    background-color: black;
+    width: 85%;
+    margin-left: 110px;
+    text-align: center;
+    margin-top: 10px;
+    height: 21px;
+    
+}
+.seller{
+    color: #fff;
+    font-family: Cinzel;
+    font-size: 15px;
+    
+}
+.all{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+}
+.cappucino
+{
+    height: 390px;
+    width: 300px;
+    background-color: #242424;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    
+}
+
+.cappu{
+    width: 300px;
+    height: 320px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.cino{
+    font-size: 17px;
+    font-family: coffee;
+    text-align: center;
+    padding-top: 2px;
+
+}
+.coffee{
+    font-size: 13px;
+    font-family: coffee;
+    
+}
+
+.container {
+   display: flex;
+   justify-content: space-evenly;
+}
+.scrolltoTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 1s ease 1s;
+}
+.scrolltoTop:hover{
+    background-color: #f7f7f7;
+    color: black;
+}
+.containers{
+    display: grid;
+    grid-template-columns: 1fr 0fr 1fr;
+    background-color: #757575;
+    color: #fff;
+    height: 130px;
+    
+    
+}
+.foot{
+    text-align: center;
+    padding-top: 60px;
+    font-family: Lucida Fax;
+    font-weight: 100;
+    font-size: small;
+}
+.zeroo{
+    text-align: center;
+    padding-top: 52px;
+    font-family: Colonna MT;
+    font-size: xx-large;
+}
+.two{
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}

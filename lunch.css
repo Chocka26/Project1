@@ -1,0 +1,32 @@
+body{
+   
+}
+.picture
+{
+    background-image:url(./lunchh.avif);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lunch{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color:#fff;
+    font-weight: 600;
+    font-family:"Cabin", Arial, Helvetica, sans-serif;;
+    font-size: 60px;
+    
+}
+.nonveg
+{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}

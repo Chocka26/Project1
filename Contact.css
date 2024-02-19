@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.out{
+    text-align: center;
+    font-family: philosopher;
+    margin-top: 50px;
+    font-size: 36px;
+}
+.OUTLET1{
+    width: 350px;
+    height: 465px;
+    background-color: #242424;
+    margin-top: 50px;
+}
+.image{
+    width: 350px;
+    height: 400px;
+}
+.font{
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.overall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.open{
+    margin-top: 45px;
+    text-align: center;
+    font-family:philosopher;
+    font-size: 26px;
+}
+.bang{
+    font-size: 15px;
+    text-align: center;
+    color: #757575;
+    font-family: Ebrima;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.Soon{
+    text-align: center;
+    font-family:philosopher;
+    font-size: 26px;
+}
+.containers{
+    display: grid;
+    grid-template-columns: 1fr 0fr 1fr;
+    background-color: #757575;
+    color: #fff;
+    height: 130px;
+    
+    
+}
+.foot{
+    text-align: center;
+    padding-top: 60px;
+    font-family: Lucida Fax;
+    font-weight: 100;
+    font-size: small;
+}
+.zeroo{
+    text-align: center;
+    padding-top: 52px;
+    font-family: Colonna MT;
+    font-size: xx-large;
+}
+.two{
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}

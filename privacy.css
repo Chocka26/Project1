@@ -1,0 +1,60 @@
+@font-face {
+    font-family: policy;
+    src: url(./fonts/Merriweather-Regular.ttf);
+    font-family: WELCOME;
+    src: url(./fonts/Philosopher-Bold.ttf);
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.privacy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: policy;
+    font-weight: 100;
+    margin-top: 20px;
+    
+    
+    
+}
+.policy{
+    width: 80%;
+    font-size: 18px;
+    color:darkslategray;
+    margin-left: 145px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 28px;
+    padding-top: 30px;
+}
+.containers{
+    display: grid;
+    grid-template-columns: 1fr 0fr 1fr;
+    background-color: #757575;
+    color: #fff;
+    height: 130px;
+    
+    
+}
+.foot{
+    text-align: center;
+    padding-top: 60px;
+    font-family: Lucida Fax;
+    font-weight: 100;
+    font-size: small;
+}
+.zeroo{
+    text-align: center;
+    padding-top: 52px;
+    font-family: Colonna MT;
+    font-size: xx-large;
+}
+.two{
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
